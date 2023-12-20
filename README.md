@@ -1,7 +1,7 @@
 # PIN Info Web Application
 
-_Project Description:_
-The PINInfo Web Application is a user-friendly web application designed to provide quick and efficient access to postal code information in India. The application aims to address the challenges associated with accurate address validation, especially in a diverse landscape like India. It leverages the Postal PIN Code API to fetch postal code details based on either the Postal PIN Code or Post Office Branch Name.
+_**Project Description:**_
+The PIN Info Web Application is a user-friendly web application designed to provide quick and efficient access to postal code information in India. The application aims to address the challenges associated with accurate address validation, especially in a diverse landscape like India. It leverages the Postal PIN Code API to fetch postal code details based on either the Postal PIN Code or Post Office Branch Name.
 
 _Target Browsers:_
 The PINInfo Web Application is designed to be accessible on a wide range of devices and browsers. The target browsers include:
@@ -10,11 +10,15 @@ The PINInfo Web Application is designed to be accessible on a wide range of devi
 - Tablets
 - Smartphones
 
+<br>
+
 # Developer Manual
 
 **Audience:**
 This Developer Manual is for future developers who wants to work furture on the project and add more information about the cities and village areas of India. Developers can use the installation process provided in this manual to set up the project in their own localhost devices.
 To install the application on a dedicated device, please follow the below installation steps.
+
+<br>
 
 # Installation and Dependencies
 
@@ -37,6 +41,8 @@ Once you're done installing the project and the dependencies, you will be able t
 In the terminal, you can type the below code which will start the application.
 
 `> npm start`
+
+<br>
 
 # API Endpoints
 
@@ -63,6 +69,14 @@ _API endpoint_: `https://api.postalpincode.in/postoffice/{district}`
 
 _Example_: `https://api.postalpincode.in/postoffice/Cuttack`
 
+<br>
+
 # Future plans
 
 For the future development plans for the project, we will add more districts in the application and make another API solely dedicated for States and their respected cities and districts.
+
+<br><br>
+
+# Group member: Arya Thakur
+
+# UID : 117897838
