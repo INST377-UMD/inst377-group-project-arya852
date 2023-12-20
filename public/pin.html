@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Pin Info</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="pin.css">
+
+         <script src="pin.js"></script>
+        <style>
+            select{
+                width: 150px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div style="text-align: center;"><h1>&#128204; PIN INFO &#128204;</h1>
+        <h1>All about Postal Pin Code Information in India &#128238</h1>
+        </div>
+
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pin.html">Pin Info</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <h2 style="text-align: center;">Let's find out the right Branch Information with the PIN Code</h2>
+        <br>
+
+        <div style="text-align: center;">
+            <h3>Select the state, district and pin code.</h3>
+
+
+            <form onsubmit="populatePin(); return false;">
+                
+                <label for="state">State: </label>
+                <select onchange="print_city('city', this.selectedIndex);" id="state" name="state" class="form-control" required></select>
+                <br><br>
+                <label for="city">District: </label>
+                <select id="city" class="form-control" required></select>             
+                <script language="javascript">print_state("state");</script>   
+                <br><br>
+                <button type="submit" class="button-70" id="getPin">Get Pin Code!</button>                
+            </form>       
+        </div>
+
+        <!-- Container for displaying post office details -->
+        <div id="result-container" class="result-container"></div>
+
+        <script src="pin.js"></script>
+
+        <footer id="footer-bar">
+            <h2>Copyright</h2>
+        </footer>           
+
+    </body>
+</html>
