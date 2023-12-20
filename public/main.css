@@ -1,0 +1,71 @@
+body {
+    background-color: #f1e3bb;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 25px;
+}
+
+#nav-bar {
+    background-color: #f4eae1;  
+    text-align: center;
+    font-size: 20px;
+    height: 70px; 
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#nav-bar ul{
+    list-style-type: none;
+}
+#nav-bar li {
+    display: inline;
+    padding: 35px;
+}
+
+#nav-bar a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border-radius: 10px;
+} 
+
+#nav-bar a {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 1px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 20px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 150px;
+}
+
+#nav-bar a:focus {
+  border-color: rgb(241, 165, 165);
+  box-shadow: rgba(222, 28, 28, 0.5) 0 2px 5px 0;
+  outline: 10px;
+}
+
+#footer-bar {
+    text-align: center;
+    background-color: #e7c28a;
+    margin-top: 80px;
+    border-radius: 9px;
+    border-color: black;
+    border-style: solid;
+}

@@ -1,0 +1,46 @@
+
+/* CSS */
+.button-70 {
+    background-image: linear-gradient(#dabf5b, #f6963d);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: Montserrat,sans-serif;
+    font-size: .9em;
+    margin: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+form{
+    font-size: 20px;
+}
+    
+
+.result-container {
+      margin-top: 20px;
+  }
+  
+table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #e9c4c4;
+}
+
+tr:nth-child(even) + tr {
+    background-color: rgb(247, 241, 241);
+}
+
+th, td {
+    border: 2px solid black;
+}
